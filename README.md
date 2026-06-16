@@ -11,13 +11,14 @@ DigiTry
 |---|---|---|
 | Sai Thi Han Win | Technical Lead | Manage repository and prototype feasibility |
 | Soe Yu Nwe | Product Lead | Define problem, target users, and value proposition |
-| Rigzang Lhmao | Documentation Lead | Maintain documentation |
+| Rigzang Lhmao | Documentation Lead | Maintains README, weekly logbook, report files, and final submission package |
+| Seint Myat Wai | Validation Lead | Manages customer discovery, survey/interview evidence, and metric collection |
 ## Initial Problem Area
 Rangsit University students and lecturers currently have no unified, real-time source for class schedules, room assignments, and last-minute changes. Schedule information is fragmented across PDF documents, LINE group chats, and verbal announcements, making it difficult for students to track room availability, detect scheduling conflicts, or receive timely updates when classes are cancelled or relocated.
 ## Target Users
 Rangsit University Students, Lecturers, and Staff.
 ## Initial IT Venture Direction
-SmartTimetable is a web-based scheduling platform that gives Rangsit University students a personalized, real-time view of their weekly class schedule with instant LINE Notify alerts. Lecturers and staff can manage timetable entries and broadcast updates through a simple admin dashboard, replacing the current reliance on static PDFs and informal group chats.
+SmartTimetable is a web-based scheduling platform that provides Rangsit University students with a personalized, real-time view of their weekly class schedule, along with instant LINE Notify alerts. Lecturers and staff can manage timetable entries and broadcast updates through a simple admin dashboard, replacing the current reliance on static PDFs and informal group chats.
 ## Technology Possibility
 Possible technologies:
 - Web application
