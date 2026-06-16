@@ -1,1 +1,4 @@
-<img width="469" height="90" alt="image" src="https://github.com/user-attachments/assets/2e4d81c6-a322-4e55-8258-3027484cdb81" />
+# Team Profile
+## DigiTry
+## Team Members and Roles
+<img width="1045" height="100" alt="image" src="https://github.com/user-attachments/assets/96ac0a8f-67e5-4b08-b70c-a1df8bcdb116" />
