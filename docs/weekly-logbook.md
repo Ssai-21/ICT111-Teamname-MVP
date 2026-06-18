@@ -89,7 +89,8 @@ The team rejected **LinguaHub** (an English practice and peer conversation match
 
 - Selected opportunity file: `/docs/selected-opportunity.md`
 
-- GitHub issue screenshot: `/screenshots/lab2-issues.png`
+- GitHub issue screenshot: <img width="1349" height="794" alt="image" src="https://github.com/user-attachments/assets/c4992a89-858b-4762-88d3-a2f3396516b5" />
+
 
 - Commit link: https://github.com/Ssai-21/ICT111-DigiTry-MVP/commits/main
 
