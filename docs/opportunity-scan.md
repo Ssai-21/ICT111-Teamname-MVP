@@ -29,3 +29,14 @@
 | Idea 4: PeerNotes | Web prototype with file upload and search/tag system | HTML/CSS/JS, Firebase Storage or MySQL | Sample lecture notes files, course/topic tags | Low | Yes |
 | Idea 5: QuickPoll | Web prototype with poll creation and live results display | HTML/CSS/JS, Firebase real-time database or WebSocket | Sample poll questions and responses | Medium | Yes |
 | Idea 6: LinguaHub | Web prototype with peer matching board and writing feedback demo | HTML/CSS/JS, MySQL or Firebase | Sample student profiles, sample writing submissions | Medium | Yes |
+
+## Scoring Matrix
+ 
+| Idea | New | Useful | Feasible | Total | Rank | Notes |
+|---|---|---|---|---|---|---|
+| Idea 1: SmartTimetable | 4 | 5 | 5 | 14 | 1 | Chosen venture direction: solves a daily, universal problem for the whole university with high feasibility using standard web + database skills already covered in coursework |
+| Idea 2: MindCare | 4 | 5 | 5 | 14 | 1 | Anonymous design removes auth complexity; simple check-in form makes it very feasible |
+| Idea 3: EventHub | 3 | 4 | 5 | 12 | 3 | Useful but similar to existing social media use; very feasible as basic CRUD app |
+| Idea 4: PeerNotes | 3 | 4 | 5 | 12 | 3 | Simple file upload and search system; low technical risk, high feasibility |
+| Idea 5: QuickPoll | 4 | 4 | 4 | 12 | 3 | Novel use case for RSU classrooms; needs real-time updates, slightly more complex |
+| Idea 6: LinguaHub | 4 | 4 | 3 | 11 | 6 | Differentiated idea with AI feedback angle; matching plus AI integration adds moderate complexity |
