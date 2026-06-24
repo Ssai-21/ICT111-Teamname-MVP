@@ -1,40 +1,47 @@
 # Problem Notes
 
 ## Selected Case
-Smart Campus Timetable
+SmartTimetable – Digital Class Schedule and Room Finder. This case focuses on validating whether the static PDF/printed timetable causes real, recurring problems for students, lecturers, and staff, and whether a real-time digital alternative would be adopted.
 
 ## Target Respondents
 | Respondent Type | Why This Respondent Matters | Planned Number | Actual Number |
 |---|---|---:|---:|
-| Students | They frequently experience schedule confusion and room change. | 15 | 12 |
-| Lecturers/Staff | They need to update their class schedules and notify students efficiently. | 5 | 3(2 Lecturers/1 Staff) |
-
+| Student | Primary daily user of the timetable; most directly affected by room/schedule changes | 10 | 12 |
+| Lecturer | Manages class delivery and is affected by room conflicts and the need to communicate changes manually | 3 | 2 |
+| Staff | Handles student questions about schedule changes and represents the administrative side of the problem | 2 | 1 |
 
 ## Observed / Reported Problem
-Students and lecturers face a lack of real-time updates regarding sudden schedule changes or classroom relocations. This leads to missed classes, confusion, and wasted time commuting or waiting outside classrooms because updates are not synchronized or delievered instantly.
+The official PDF/printed timetable does not update automatically when a class is cancelled, a room is changed, or a room is double-booked. Students and lecturers consistently find out about these changes too late — often only after walking to the wrong room or starting a class without students present. Both groups currently rely on informal communication (group chats, verbal announcements, asking around) to make up for the timetable's lack of real-time accuracy.
 
 ## Current Alternatives or Workarounds
 | Workaround | Who Uses It? | Weakness / Pain | Evidence Source |
 |---|---|---|---|
-| Checking PDF/Printed timetables or university portal (reg.rsu.ac.th, RSU connect). | Students | The PDF is static and not updated in real-time when changes occur. | Reported by multiple students in Row 1, 6, 11, 13 |
-| Asking peers or Lecturers in class group chats(LINE, Messenger, etc). | Students | Information gets buried quickly in chat history, leading to missed updates.| Reported by students in Row 1, 4, 9 |
-| Checking physical notices about room changes on the classroom door | Lecturers and Administrative Staff | Students only find out after they physically arrive at the classroom, resulting in wasted time and confusion. | Reported by Staff (Row 5) and Lecturer (Row 7) |
+| Class group chat confirmation | Students | Messages get buried quickly; not everyone sees the update in time | Survey response 1, 4 |
+| Asking the lecturer directly | Students | Depends on lecturer being reachable; delays resolution | Survey response 6, 12 |
+| Memorizing the schedule | Students | Breaks down immediately when any change occurs; no fallback | Survey response 9 |
+| Manually relaying updates via LINE group | Lecturer | Time-consuming; relies on the lecturer remembering to notify everyone individually | Survey response 12 |
+| Verbal announcement in class | Lecturer | Not written down anywhere, so students who miss class never receive it | Survey response 8 |
+| Manual explanation to students at the office | Staff | Repetitive; staff repeats the same explanation to many students one by one | Survey response 5 |
+| Checking university intranet/RSU Connect timetable | Student | Sometimes shows outdated semester data instead of the current one | Survey response 14 |
 
 ## Repeated Pain Points
 | Pain Point | Number of Mentions | Example Evidence | Severity |
 |---|---:|---|---|
-| Late Notifications about canceled of rescheduled classes.| 6 | Finding out about room changes too late / Verbal announcements aren't updated anywhere | 8 to 10 (Highly Critical |
-| No automated updates when a class is canceled/changed | 4 | It does not update automatically when there is a change / Critical changes are easy to miss completely | 7 to 10 (Highly Critical) |
-| Room double-booking / manual relocation	| 2 | A room was double-booked with another course. Had to relocate the class mid-session | 7 (High) |
-| Information is messy / fragmented | 2 | Group chat messages get buried and lost quick" / "It messy" | 5 to 6 (Medium) | 
+| Timetable does not update for cancellations or changes | 6 | "It doesn't update automatically when a class is canceled or postponed" | High |
+| No advance notice of room changes | 4 | "No way to know about room changes," led to walking to the wrong building | High |
+| Verbal/in-class announcements are not recorded anywhere | 2 | Lecturer mentioned a cancellation but the PDF was never updated, so the student went to an empty class | High |
+| Repeated manual explanations needed from staff/lecturers | 2 | Staff repeating the same room-change explanation to multiple students individually | Moderate |
+| Outdated semester data shown in existing intranet system | 1 | Timetable on RSU Connect showed the previous semester instead of the current one | Moderate |
+| No issues experienced at all | 3 | A few respondents reported "Almost never" facing problems and rated improvement low (2–6 out of 10) | Low |
 
 ## Consequences
 | Consequence | Example | Evidence Strength |
 |---|---|---|
-| Arriving late or going to the wrong classroom | Students arrived late to class, walked to the wrong building entirely, or ended up waiting in the wrong exam/lecture room. | Strong (Reported by 6 different students) |
-| Wasted time, energy, and commuting effort | Waste of energy to went to class" when discovering a class cancellation upon arrival. | Strong (Explicitly stated in Row 8) |
-| Lost teaching and administrative productivity | Staff repeated the same explanations to waves of lost students; lecturers lost valuable teaching time relocating students mid-session. | Strong (Reported by Staff in Row 5 and Lecturer in Row 7) |
+| Arrived late to class | Student walked to the wrong building after an unannounced room change | Strong |
+| Missed part or all of a class | Student went to a class that had been cancelled, with no one else present | Strong |
+| Lost teaching time | Lecturer had to relocate an entire class mid-session due to a room double-booking | Strong |
+| Wasted staff time | Staff repeatedly explained the same schedule change to multiple students individually | Moderate |
+| Near-miss on an exam | Student almost went to the wrong room for an exam after a late room change | Strong |
 
 ## Notes for MVP Direction
-What should the team consider when designing the MVP later?
-Based on the survey data the MVP for the Smart Campus Timetable should focus on replacing static PDFs with a real-time alert system. The main problem is that sudden room changes and class cancellations get lost in messy group chats or outdated files, causing students to show up to the wrong classrooms. To fix this, the MVP needs to feature automatic push notifications that instantly alert students when a change is made. For lecturers and staff, a simple centralized dashboard will allow them to update a room number once rather than manually repeating the information to lost students. By keeping the design clean and adding simple tools like a subject-code search and calendar syncing, the system will directly eliminate the confusion and wasted time currently disrupting campus life.
+The MVP should prioritize solving the most strongly evidenced pain point first: real-time visibility into cancellations, room changes, and double-bookings, since this is where the clearest, most severe consequences were reported (lateness, missed classes, lost teaching time). Push notifications were the most frequently requested feature, but the team should keep the MVP simple — a searchable, always-current schedule view may be sufficient before adding notification infrastructure. Since a minority of respondents reported no real pain with the current system, the MVP should be tested specifically with users who reported frequent issues rather than assuming universal need. Lecturer and staff sample sizes were small, so the team should treat their workflow needs (e.g. a simple way to broadcast a change without relying on LINE) as a secondary validation target for Lab 04 rather than a confirmed requirement yet.
