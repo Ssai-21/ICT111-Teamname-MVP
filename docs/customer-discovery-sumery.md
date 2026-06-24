@@ -4,7 +4,7 @@
 SmartTimetable – Digital Class Schedule and Room Finder
 
 ## Target Users Studied
-University students (the majority of respondents), with a small number of lecturers and one staff member also surveyed.
+University students (the majority of respondents), with a small number of lecturers and one staff member, were also surveyed.
 
 ## Number of Responses / Interviews
 15 survey responses collected.
@@ -13,7 +13,7 @@ University students (the majority of respondents), with a small number of lectur
 The current PDF/printed timetable does not update automatically when a class is cancelled, moved, or relocated, or when a room is double-booked. Students and lecturers consistently described finding out about changes too late, often only after arriving at the wrong room or missing part of a class.
 
 ## Main Current Workarounds
-Respondents rely on informal, inconsistent channels to fill the gap left by the static PDF: confirming in class group chats, asking classmates or lecturers directly, checking memory, or relying on staff and lecturers to manually relay updates (for example, one lecturer said they personally informed students via a LINE group chat). One staff member described repeatedly explaining the same room changes to multiple students individually due to no shared source of truth.
+Respondents rely on informal, inconsistent channels to fill the gap left by the static PDF: confirming in class group chats, asking classmates or lecturers directly, checking memory, or relying on staff and lecturers to manually relay updates (for example, one lecturer said they personally informed students via a LINE group chat). One staff member described repeatedly explaining the same room changes to multiple students individually due to the lack of a shared source of truth.
 
 ## Strongest Evidence Found
 A large majority of respondents rated the potential value of a real-time digital timetable highly (7 to 10 out of 10), and 9 out of 15 said they would "Definitely" switch to a free digital version with live updates. Several respondents independently and specifically requested instant push notifications for schedule changes, and multiple real incidents (room changes, cancelled classes, exam room changes, double-booked rooms) were reported with concrete consequences such as arriving late or going to the wrong room.
