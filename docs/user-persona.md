@@ -42,15 +42,20 @@ A freshman student struggling to keep track of shifting room assignments and las
 ## 6. Current Alternatives / Workarounds
 | Current Alternative | Weakness / Limitation | Evidence |
 |---|---|---|
-| Official PDF Timetable & Portals | Entirely static. Completely fails to reflect real-time changes or sudden room double-bookings. | Main Repeated Problem |
-| LINE Group Chats & Asking Peers | Highly informal and inconsistent. Relies on classmates or lecturers manually pushing updates, which clutters chat logs. | Main Current Workarounds |
-| Physical Verification | Requires the user to waste physical energy and time walking to the student center just to check room details. | Main Current Workarounds |
+| Official PDF Timetable & Portals | Entirely static. Completely fails to reflect real-time changes or sudden room double-bookings. | Screenshot of PDF / Timetable |
+| Asking Peers / Lecturers in LINE | Highly informal and inconsistent. Relies on classmates or lecturers manually pushing updates, which clutters chat logs. | LINE / Class Chat Responses |
+| Physical Verification | Requires the user to waste physical energy and time walking to the room just to check room details. | Intranet / Staff Responses |
 
 
 ## 7. Design Implications
 - What should the system/app/platform support?
-  The platform must dynamically override stale university data to provide an accurate, live-updating schedule view. It needs a flexible notification or widget engine to support push notifications, mobile-friendly layouts, and calendar syncing.
+
+  The platform must dynamically override stale university data to provide an accurate, live-updating schedule view. It needs to support a flexible messaging integration—specifically utilizing LINE Official Account APIs or LINE Bots—to push instant notification alerts directly to students' preferred chat application alongside a mobile-friendly layout and calendar syncing.
+  
 - What should the team avoid?
-  Avoid assuming all students face this issue with the same daily frequency, as findings show it ranges from "almost never" to "all the time." Do not build an overly rigid system that relies strictly on a single API without fallback manual validation.
+
+  Avoid assuming all students face this issue with the same daily frequency, as findings show it ranges from "almost never" to "all the time." Do not build an overly rigid system that relies strictly on a single API without fallback manual validation
+  
 - Which user need is most important for the MVP?
+
   A highly responsive, mobile-readable digital timetable that aggregates schedule data cleanly and clearly flags any real-time cancellations or room adjustments.
