@@ -6,18 +6,20 @@
 Yu, Year 1 International Undergraduate Student
 
 ## 2. User Type
-A university freshman who relies heavily on digital tools but struggles with unpredictable, uncoordinated campus schedule changes.
+A freshman student struggling to keep track of shifting room assignments and last-minute schedule changes.
 
 ## 3. Background and Context
 - Where does this user experience the problem?
 
-  On campus when trying to locate classrooms, lecture halls, or navigating between different university faculties.
+  On campus when trying to locate classrooms, lecture rooms, or navigating between different university faculties.
+  
 - When does the problem usually happen?
 
-  During the university week when classes are suddenly cancelled, rescheduled, or moved to different rooms.
+  During the university week when classes and schedules are suddenly cancelled, rescheduled, or moved to different rooms.
+  
 - What digital tools does this user already use?
 
-  Official university portals (RSU Connect, intranet, registration website), downloadable PDF timetables, Google Calendar, and LINE group chats.
+  Official university portals (RSU Connect, intranet, registration website), downloadable PDF timetables, Google Calendar, phone screenshots, and LINE group chats.
 
 ## 4. Goals
 - What does the user want to achieve?
@@ -27,15 +29,15 @@ A university freshman who relies heavily on digital tools but struggles with unp
   
 - What would make the situation easier or faster for the user?
   
-  To receive immediate, trustworthy alerts regarding sudden timetable changes directly on their phone.
+  To receive immediate, reliable alerts regarding sudden timetable or room changes directly on their phone.
   
 
 ## 5. Pain Points from Lab 03 Evidence
 | Pain Point | Evidence ID / Respondent | Explanation |
 |---|---|---|
-| Outdated Official Systems | Lab 03 Summary / Survey Respondents | Existing platforms like RSU Connect and the intranet frequently display outdated semester data or fail to show correct room assignments. |
-| Negative Time Impact | Lab 03 Discovery Summary | Schedule discrepancies lead directly to stressful consequences: arriving late, missing parts of lectures, and wandering to wrong rooms. |
-|Fragmented Communication | Lab 03 "Weak Evidence" Section | Critical updates are split across different formats; some users want instant push notifications, while others prioritize map searches or calendar syncing. |
+| Outdated & Glitchy Portals | E01, E02 | EPortals like RSU Connect often fail to show room numbers or lag behind by displaying the previous semester's data during registration weeks. |
+| Poor Mobile Usability | E05, E06 | Digital schedules are often just raw PDFs or fixed paper layouts. Viewing them forces awkward two-dimensional scrolling, pinching, and zooming on small screens. |
+|Late or Buried Updates | E08, E10 | Room adjustments and cancellations are discovered too late because critical announcements get buried quickly in busy LINE group chats or verbal notices. |
 
 ## 6. Current Alternatives / Workarounds
 | Current Alternative | Weakness / Limitation | Evidence |
